@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav class="sticky"> 
+        <div class="logo">Portfolio</div>
+        <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+            <i class="ri-menu-line"></i>
+        </label>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+     <section class="home" id="home">                                                             
+        <div class="left-content"> 
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="container">
+
+                Hello, <br> My name is <span class="purple">Sourabh Sharma   
+                </span>
+                
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image.png.jpg" alt=""> 
+        </div>
+    </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                
+                <img src="image.png.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span class="purple">Me</span></h2>
+                <h3><span class="purple">Fronted Developoer</span></h3>
+                <p>Hi, I'm SOURABH SHARMA, a dedicated web developer, and i'm currently pursuing in MCA degree. with expertise in HTML,CSS,Javascript,ReactJS. My passion lies in crafting captivating website design and implementing them through frountend development.
+                </p>
+                <input type="button" value="Read more" class="btn">
+                
+            </div>
+        </section> 
+       <section class="skill" id="skill">
+    <div class="skill-content">
+        <h1><span class="purple">My Skill
+        </span></h1>
+        <li><h3>HTML</h3>
+        <span class="bar"><span class="html"></span></span>
+        </li>
+        <li><h3>CSS</h3>
+            <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>Javascript</h3>
+                <span class="bar"><span class="javascript"></span></span>
+                </li>
+                <li><h3>Php</h3>
+                    <span class="bar"><span class="php"></span></span>
+                    </li>
+    </div>
+
+          </section>    
+          <section class="project" id="project">
+            <h2 class="heading"><span class="purple">My Project</span></h2>
+            <div class="services-container">
+                <div class="services-box">  
+                    <img src="calculator.2jpg.jpg" alt="">
+            <p>Calculator is a  straightforward tool crafted with HTML, CSS, and Javascript.It's designed for ease of use, offering basic arithmetic function with a clean interface. this calculator solving the equations. calculator gets job done efficiently</p>
+            <input type="submit" value="Read more" class="btn">
+        </div>
+        <div class="services-box">  
+            <img src="clock.img.jpg" alt="">
+    <p>Responsive analog clock using HTML, CSS and Javascript Analog clook is a clock that shows the time by using a circular disc and three tradional hour, minute, and second hands.</p>
+    <input type="submit" value="Read more" class="btn">
+</div>
+<div class="services-box">  
+    <img src="Netflix.jpg" alt="">
+<p>Experience the magic of Netflic with our clone project. Using HTML, CSS. I've recreted ythe iconic interface of Netflic, complete with smooth transitions, responsive design, and dynamic content loading. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, necessitatibus?
+
+</p>
+<input type="submit" value="Read more" class="btn">
+</div>
+    </div>
+          </section>
+          <section class="contact" id="contact">
+            <h2 class="heading"><span class="purple">  Contact Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type=" text" placeholder="Email id">
+                    </div>
+                    <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type=" tEXT" placeholder="Email subject">
+                     </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+          </section>
+          <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright $copy; 2024 by @Sourabh Sharma | All Right.</p>
+                </div>
+                <div class="footer-iconTop">
+                    <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+
+          </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Designer ','Web Developer'],
+          typeSpeed: 30,
+        });
+      </script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                   
