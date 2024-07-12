@@ -129,8 +129,6 @@
  .icons .fa-brands:hover{
     cursor: pointer;
     background: linear-gradient(#111,#3877FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
  
  }
 
@@ -422,7 +420,7 @@ footer-iconTop a i{
         padding: 7rem;
     }
     .contact{
-        min-heigth:auto;
+        min-height: auto;
     }
     .footer{
         padding: 2rem 3%;
